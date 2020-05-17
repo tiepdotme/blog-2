@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Welcome"
+date:   2020-05-16 18:32:52 -0500
+---
+Everyone is afraid of COVID-19 at the moment. People are maintaining social distance, and most employers would like you to work from home (including mine).
+
+This time on everyone's hand has resulted in folks trying new things. I've given myself a haircut and learned how to change the oil in my car and started cooking at home.
+
+Another thing I am challenging myself to do is, write. Write a blog. There are plenty more blogs like this one, so why bother?
+
+I aim to share my knowledge. The things I have learned over the last decade of programming, especially with Javascript. I've learned a lot of cool tricks, and it is time to share them once. I aim to do one blog post every day for the next 100 days. Writing this blog would (hopefully) get me into the habit of writing more and get most of the Javascript basics out.
+
+If you feel like reaching out to me, you can drop me a note at `contact@bhagat.me` or check my social media in the footer.
+
+I am also available on [LinkedIn](https://www.linkedin.com/in/bhagatparwinder/) so feel free to connect
