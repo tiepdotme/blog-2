@@ -38,4 +38,4 @@ So what makes it so famous?
 4. Works without any compilation or transpiling
 5. It can run in the browser or server-side. It can run on anything that can support the JavaScript engine (V8, Trident, SpiderMonkey)
 
-Hopefully, by now, I have sold you on the idea of JavaScript and why it is fun to work with. In the next few blog posts, we would go over the basics of running JavaScript and introduction to principles of JavaScript. As we take a deeper dive into these basics, you would also realize that it's relatively easy to make mistakes if you don't know what you are doing. We will learn from the mistakes of the past and try to be a better JavaScript developer.
+Hopefully, by now, I have sold you on the idea of JavaScript and why it is fun to work with. In the next few blog posts, we will go over the basics of running JavaScript and introduction to principles of JavaScript. As we take a deeper dive into these basics, you will also realize that it's relatively easy to make mistakes if you don't know what you are doing. We will learn from the mistakes of the past and try to be a better JavaScript developer.
