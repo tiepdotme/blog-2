@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Types in JavaScript"
-date:   2020-05-19 22:58:00 -0500
+date:   2020-05-19 12:58:00 -0500
 ---
 
 Anytime that you have a value that could be saved in a variable or passed to a function, they can be defined as one of the 7 types in JavaScript. The different types are:

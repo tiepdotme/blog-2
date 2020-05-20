@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Where can I run JavaScript?"
-date:   2020-05-18 23:12:00 -0500
+date:   2020-05-18 08:12:00 -0500
 ---
 
 I almost missed writing the blog post today. It rained a ton yesterday, causing the basement to flood, and it took a significant portion of the day cleaning that mess up (excuses!). Day 3 of my commitment, and it was going to fail 😆.
