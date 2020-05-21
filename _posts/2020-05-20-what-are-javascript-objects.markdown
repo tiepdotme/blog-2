@@ -60,7 +60,7 @@ person.age = 48;
 person.vehicles = null;
 ```
 
-### What are valid keys on Objects?
+### What are valid keys in Objects?
 
 You can use:
 
