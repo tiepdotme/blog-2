@@ -15,7 +15,7 @@ Anytime that you have a value that could be saved in a variable or passed to a f
    All three examples provided above are valid strings. The advantage of using backticks is that it allows you to do multi-line strings. For example,
 
    ```javascript
-   `This is am
+   `This is an
    example of
    a multi
    line string`
