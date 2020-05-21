@@ -27,7 +27,7 @@ const person = {
 
 What I have done above is to declare an object called **person**. This person is a collection of data about an individual. An object starts and ends with `{}` curly braces. Within the curly braces, we have keys on the left (and they don't need to be put in quotes) and the values on the right of a semicolon.
 
-They keys in the above object are *firstName*, *lastName*, *age*, *nickname*, *vehicles*, *car*, and *motorcycle*. The rest are values for those keys.
+The keys in the above object are *firstName*, *lastName*, *age*, *nickname*, *vehicles*, *car*, and *motorcycle*. The rest are values for those keys.
 
 > **Important** Always keep in mind that objects are for data where the order does not matter. We cannot guarantee the order of keys in an object.
 
