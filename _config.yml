@@ -11,7 +11,7 @@ phone: 312.350.2425
 google_analytics: UA-48748523-2
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 # Exclude from processing.
