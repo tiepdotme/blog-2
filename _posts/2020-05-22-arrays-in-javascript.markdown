@@ -93,7 +93,7 @@ We will discuss a ton of methods in the next few blog posts as we go in-depth wi
    carArray.push("Mazda");
    console.log(carArray); // [ 'Honda', 'BMW', 'Ferrari', 27, true, 'Mazda' ] 
    ```
-2. Sort
+2. Sort:
    This sorts the array in place. It is a mutable method. It will change the original array!
    ```javascript
    const carArray = ["Honda", "BMW", "Ferrari", 27, true];
