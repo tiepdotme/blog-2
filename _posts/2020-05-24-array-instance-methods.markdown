@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Array (Instance) Methods v2"
+title:  "Array (Instance) Methods"
 date:   2020-05-24 16:45:00 -0500
 ---
 

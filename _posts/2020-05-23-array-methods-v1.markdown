@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Array Methods v1 (Cause this needs more than one post)!"
+title:  "Array Methods"
 date:   2020-05-23 16:45:00 -0500
 ---
 
