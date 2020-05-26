@@ -6,7 +6,7 @@ date:   2020-05-25 13:45:00 -0500
 
 ## Array Instance Methods
 
-Methods that exist on the prototype of `Array`. This is the third post in the series of array methods. You can read the first post about [array static methods here](2020-05-23-array-methods-v1.markdown) and the [second post here](2020-05-24-array-instance-methods.markdown) (part 1 of instance methods).
+Methods that exist on the prototype of `Array`. This is the third post in the series of array methods. You can read the first post about [array static methods here]({% post_url 2020-05-23-array-methods-v1 %}) and the [second post here]({% post_url 2020-05-24-array-instance-methods %}) (part 1 of instance methods).
 
 ### lastIndexOf
 lastIndexOf gets you the last index at which a given element can be found. If not found, it returns -1. It can take a second parameter that is used as `fromIndex`. The lookup starts **backward** from the index provided.
