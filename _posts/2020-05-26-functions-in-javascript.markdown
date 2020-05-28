@@ -17,7 +17,7 @@ A function is a JavaScript code block that can be executed by calling/invoking i
 
 ![Function Image](/blog/assets/check-if-adult.png "Example of a JavaScript function")
 
-A function is used to create reusable code blocks. If you a piece of code that is to be executed multiple times, it is a good idea to convert it into a function.
+A function is used to create reusable code blocks. If you a have piece of code that is to be executed multiple times, it is a good idea to convert it into a function.
 
 ### Function Returns
 
