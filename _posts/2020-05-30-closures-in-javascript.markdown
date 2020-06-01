@@ -2,6 +2,7 @@
 layout: post
 title:  "Closures in JavaScript"
 image: "/assets/social/closures.png"
+description: "Closures in JavaScript is a fundamental pillar. They combine lexical scoping, function execution, and garbage collection."
 date:   2020-05-30 16:00:00 -0500
 ---
 
