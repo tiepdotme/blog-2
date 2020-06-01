@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Closures in JavaScript"
+image: "/assets/social/closures.png"
 date:   2020-05-30 16:00:00 -0500
 ---
 
