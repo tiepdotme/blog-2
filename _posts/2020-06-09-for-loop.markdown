@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "For Loop"
+date:   2020-06-09 12:00:00 -0500
+---
+
+## Introduction
+
+We learned about while and do-while loops in the previous blog posts. Loops allow us to repeat the same action multiple times. They have three requirements:
+
+1. Start condition
+2. End condition
+3. Counter
+
+The for-loop combines all three requirements on one line, unlike a while or do-while.
+
+```javascript
+for (start; condition; counter) {
+  // body
+}
+```
+
+Example: If we would like to print numbers from 1 to 10 on the console.
+
+```javascript
+for (let i = 1; i <= 10; i++) {
+  console.log(i); // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+}
+```
+
+We **start** at 1 (that is the initial value of `i`), you **end** at 10 (that is the final value of `i` in evaluation), and you increment `i` by one each time (using `i++`). We can skip any part of the for-loop requirements, and it still works.
+
+## Exiting for loop
+
+There are situations when we loop over a data structure, but if a condition is met, we do not want to do any more iterations. This is where the `break` keyword comes in.
+
+```javascript
+for (let i = 1; i <= 10; i++) {
+    if (i === 3) { // As soon as i reaches 3 the looping ends
+        break;
+    }
+  console.log(i); // 1, 2
+}
+```
+
+The example above is relatively simple. We can achieve it by changing the exit condition from `i <= 10` to `i < 3`. There is no need to use the `break` keyword. We did an example to illustrate the keyword. We could be iterating over an array of person's names, and once we find a person, exit the loop.
+
+## Skipping an iteration
+
+`continue` keyword allows us to skip a single iteration of the loop. It will not end looping like `break` does, but it will not execute a single repetition.
+
+Example: print numbers from 1 to 10 but do not print 3 or 6.
+
+```javascript
+for (let i = 1; i <= 10; i++) {
+    if (i === 3 || i === 6) { // when i is 3 or 6, skip console log and go to next value of i (next iteration)
+        continue;
+    }
+    console.log(i); // 1 2 4 5 7 8 9 10
+}
+```
+
+🚨 `continue` or `break` does not work with a ternary operator like `?`. We have to use `if...else` statement.
