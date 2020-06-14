@@ -69,7 +69,7 @@ function foo() {
     return this;
 };
 
-console.log(foo() === undefined);
+console.log(foo() === undefined); // true
 ```
 
 5. In an event, `this` refers to the element that received the event.
