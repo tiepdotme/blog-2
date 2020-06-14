@@ -15,8 +15,7 @@ The `this` keyword in JavaScript is a property of an execution context, wether i
 5. In an event, `this` refers to the element that received the event.
 
 We have used this behavior for so long that most JavaScript developers are used to it. Let's go over some examples:
-
-1. By itself, `this` refers to the global object.
+### By itself, `this` refers to the global object.
 
 ```javascript
 function foo() {
@@ -26,7 +25,9 @@ function foo() {
 console.log(foo()); // window object in a browser, global object for node execution
 ```
 
-2. The new object, when used in a constructor.
+<br/>
+
+### The new object, when used in a constructor.
 
 ```javascript
 function Order(main, side, dessert) {
@@ -43,7 +44,9 @@ console.log(newOrder.order());
 // I will have sushi with soup and finish off with a yogurt
 ```
 
-3. The base object, when the function enclosing, was called as a method of the object
+<br/>
+
+### The base object, when the function enclosing, was called as a method of the object
 
 ```javascript
 const myObject = {
@@ -61,7 +64,8 @@ console.log(myObject.order());
 
 In the above example, `this` refers to `myObject,` and it can access the properties of the object.
 
-4. `undefined` in case of **strict mode**
+<br/>
+### `undefined` in case of **strict mode**
 
 ```javascript
 "use strict";
@@ -72,7 +76,8 @@ function foo() {
 console.log(foo() === undefined); // true
 ```
 
-5. In an event, `this` refers to the element that received the event.
+<br/>
+### In an event, `this` refers to the element that received the event.
 
 ```html
 <!DOCTYPE html>
