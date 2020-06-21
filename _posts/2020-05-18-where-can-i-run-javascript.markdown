@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Where can I run JavaScript?"
+image: "/assets/social/running-js.png"
 date:   2020-05-18 08:12:00 -0500
 ---
 
