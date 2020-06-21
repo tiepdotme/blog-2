@@ -35,16 +35,35 @@ console.log(bar()); // Uncaught ReferenceError: arguments is not defined
 We can solve this "problem" with a workaround. Use the `rest` operator when you need access to arguments.
 
 ```javascript
-const addThreeNumbers = (...arguments) => {
-    console.log(arguments.length); // 3
-    console.log(arguments[0]); // 4
-    console.log(arguments[1]); // 17
-    console.log(arguments[2]); // 22
-    return arguments[0] + arguments[1] + arguments[2];
+const addThreeNumbers = (...args) => {
+    console.log(args.length); // 3
+    console.log(args[0]); // 4
+    console.log(args[1]); // 17
+    console.log(args[2]); // 22
+    return args[0] + args[1] + args[2];
 }
 
 console.log(addThreeNumbers(4, 17, 22)); // 43
 ```
+
+You can make the above example a bit cleaner using destructuring.
+
+```javascript
+const addThreeNumbers = (...args) => {
+
+    const [a, b, c] = args;
+
+    console.log(args.length); // 3
+    console.log(a); // 4
+    console.log(b); // 17
+    console.log(c); // 22
+
+    return a + b + c;
+}
+
+console.log(addThreeNumbers(4, 17, 22)); // 43
+```
+
 
 ### New
 
