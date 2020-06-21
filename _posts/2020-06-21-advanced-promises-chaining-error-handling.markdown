@@ -54,3 +54,126 @@ You can see how this chains calling names with two second breaks in between each
 
 ### Error Handling
 
+There are two ways in which you can handle errors in your promise chain, either by passing a error handler to `then` block or using the `catch` operator. We discussed the first method in the previous blog post.
+
+```javascript
+const myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        reject("an error has occurred");
+    }, 2000)
+});
+
+myPromise.then((response) => {
+    console.log(response);
+}, (error) => {
+    console.log(error); // an error has occurred
+});
+```
+
+In the above example, `then` has two callbacks. The first one is a success handler and the second is an error handler. This is completely fine and works for most cases. It has certain drawbacks:
+
+1. If the success handler ends in an error, you will not catch/handle it!
+2. If you are using a chain of promises like the one in the chaining example, you will be writing error handler for each `then` block.
+
+To come over these drawbacks, we use the `catch` operator.
+
+```javascript
+const myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        reject("an error has occurred");
+    }, 2000)
+});
+
+myPromise.then((response) => {
+    console.log(response);
+}).catch((error) => {
+    console.log(error); // an error has occured
+});
+```
+
+For the chain of promises we can use a `catch` operator like:
+
+```javascript
+const waitForMe = function (name) {
+    return new Promise((resolve, reject) => {
+        if (name === "Robert") {
+            return reject("Robert is always on time");
+        } else {
+            setTimeout(() => {
+                return resolve(name);
+            }, 2000);
+        }
+    });
+}
+
+waitForMe("Parwinder")
+    .then((data) => {
+        console.log(data); // wait 2 second and log "Parwinder"
+        return waitForMe("Lauren");
+    })
+    .then((data) => {
+        console.log(data); // wait 2 more seconds and log "Lauren"
+        return waitForMe("Robert"); // this will result in promise rejection
+    })
+    .then((data) => {
+        console.log(data); // this never gets executed
+        return waitForMe("Eliu");
+    })
+    .then((data) => {
+        console.log(data); // this never gets executed
+    })
+    .catch((error) => {
+        console.log(error); // Robert is always on time
+    })
+```
+
+Keep in mind that when chaining promises and one of the promise gets rejected, it will terminate the rest of the chain. That is why the last two console logs never run.
+
+`catch` operator does not always have to be at the very end. It could be in the middle of the chain and it will catch the errors in the chain so far.
+
+```javascript
+const waitForMe = function (name) {
+    return new Promise((resolve, reject) => {
+        if (name === "Robert") {
+            return reject("Robert is always on time");
+        } else {
+            setTimeout(() => {
+                return resolve(name);
+            }, 2000);
+        }
+    });
+}
+
+waitForMe("Parwinder")
+    .then((data) => {
+        console.log(data); // wait 2 second and log "Parwinder"
+        return waitForMe("Lauren");
+    })
+    .then((data) => {
+        console.log(data); // wait 2 more seconds and log "Lauren"
+        return waitForMe("Robert"); // this will result in promise rejection
+    })
+    .catch((error) => { // catches the promise rejection
+        console.log(error); // Robert is always on time
+        return waitForMe("Eliu"); // continues the chain
+    })
+    .then((data) => {
+        console.log(data); // Eliu
+    })
+```
+
+🚨 Why not use `catch` all the time and ignore the error handler in `then`?
+
+I mentioned this disadvantage above for error handler in `then`:
+
+> If you are using a chain of promises like the one in the chaining example, you will be writing error handler for each `then` block.
+
+There will be times when you **DO** want different error handlers for all `then` blocks in your chain (maybe for easier debugging or logging). At that point, error handler in individual `then` blocks become an advantage.
+
+### Operators
+
+There are two key operators that promises have which are suited for specific conditions: `Promise.all` and `Promise.race`.
+
+#### Promise.all
+
+#### Promise.race
