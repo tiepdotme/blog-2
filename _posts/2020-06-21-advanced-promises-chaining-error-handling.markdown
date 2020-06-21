@@ -176,4 +176,98 @@ There are two key operators that promises have which are suited for specific con
 
 #### Promise.all
 
+Promise chaining comes in handy when you want to do one async operation after another (sequentially). Quite often you would have to do multiple async operations concurrently without waiting for one to complete. Also, your action (callback) depends on all the async operations completing.
+
+`Promise.all` allows us to run multiple async operations at the same time (saving us time) but still wait for all of them to complete before executing the callback.
+
+```javascript
+const waitForMe = function (name) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            return resolve(name);
+        }, 2000);
+    });
+}
+
+const firstPromise = waitForMe("Parwinder");
+const secondPromise = waitForMe("Lauren");
+const thirdPromise = waitForMe("Robert");
+const fourthPromise = waitForMe("Eliu");
+
+Promise.all([firstPromise, secondPromise, thirdPromise, fourthPromise])
+    .then((data) => {
+        console.log(data); // [ 'Parwinder', 'Lauren', 'Robert', 'Eliu' ] 
+    });
+```
+
+The example executes all promises together and once all of them return the `name`, outputs an array of results. This execution will take 2 seconds to output 4 names vs the chaining example will take 8 seconds to output all 4 names.
+
+The order of output in the array is strictly the same as order of input promises to `Promise.all`.
+
+🚨 Even if there is a **single** failure in `Promise.all`, the result will be that rejection or failure.
+
+```javascript
+const waitForMe = function (name) {
+    return new Promise((resolve, reject) => {
+        if (name === "Robert") {
+            return reject("Robert is always on time");
+        } else {
+            setTimeout(() => {
+                return resolve(name);
+            }, 2000);
+        }
+    });
+}
+
+const firstPromise = waitForMe("Parwinder");
+const secondPromise = waitForMe("Lauren");
+const thirdPromise = waitForMe("Robert");
+const fourthPromise = waitForMe("Eliu");
+
+Promise.all([firstPromise, secondPromise, thirdPromise, fourthPromise])
+    .then((data) => {
+        console.log(data);
+    })
+    .catch((error) => {
+        console.log(error); // Robert is always on time
+    })
+```
+
+It will ignore all the other successfully resolved promises. If there is more than one rejection, it will output the rejection from a promise that comes first in the input array of promises.
+
+```javascript
+const waitForMe = function (name) {
+    return new Promise((resolve, reject) => {
+        if (name === "Robert") {
+            return reject("Robert is always on time");
+        } else if (name === "Lauren") {
+            return reject("Lauren is always on time");
+        } else {
+            setTimeout(() => {
+                return resolve(name);
+            }, 2000);
+        }
+    });
+}
+
+const firstPromise = waitForMe("Parwinder");
+const secondPromise = waitForMe("Lauren");
+const thirdPromise = waitForMe("Robert");
+const fourthPromise = waitForMe("Eliu");
+
+Promise.all([firstPromise, secondPromise, thirdPromise, fourthPromise])
+    .then((data) => {
+        console.log(data);
+    })
+    .catch((error) => {
+        console.log(error); // Lauren is always on time
+    })
+```
+
 #### Promise.race
+
+`Promise.race` handles a unique case. When you would like to run multiple async operations at the same time but not wait for all to complete. Instead, you want to execute callback as soon as first one completes (hence the keyword "race").
+
+```javascript
+
+```
