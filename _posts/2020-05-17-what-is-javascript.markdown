@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What is Javascript?"
+image: "/assets/social/javascript.png"
 date:   2020-05-17 18:30:00 -0500
 ---
 
