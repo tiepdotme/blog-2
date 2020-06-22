@@ -4,15 +4,15 @@ title: "Advanced Promises: Chaining, Error Handling & Operators"
 date: 2020-06-21 12:00:00 -0500
 ---
 
-The last [blog post](https://bhagat.me/blog/2020/06/20/basics-of-promises.html) details about what promises are, how to create them, how do they resolve and how we can reject them.
+The last [blog post](https://bhagat.me/blog/2020/06/20/basics-of-promises.html) details about what promises are, how to create, how do they resolve, and how we can reject them.
 
 This time we will be going over chaining in promises along with error handling and operators available.
 
 ### Chaining
 
-One of the biggest drawback of callbacks was the nested structure they formed when we would chain them. With the help of `then` operator we can create a flat structure that is easier to read, understand and debug.
+One of the most significant drawbacks of callbacks was the nested structure they formed when we would chain them. With the `then` operator's help, we can create a flat structure that is easier to read, understand, and debug.
 
-Lets say we have a function `waitForMe` that returns a promise. This function waits two second for a friend of your and then yells (outputs in console) their name.
+Let's say we have a function `waitForMe` that returns a promise. This function waits two seconds for a friend of yours and then yells (outputs in the console) their name.
 
 ```javascript
 const waitForMe = function(name) {
@@ -29,7 +29,7 @@ waitForMe("Parwinder")
     });
 ```
 
-You have a lot of lazy friends and you would like to call them all as you are in a hurry. We will call them one by one (chaining the action).
+You have a lot of lazy friends, and you would like to call them all as you are in a hurry. We will call them one by one (chaining the action).
 
 ```javascript
 waitForMe("Parwinder")
@@ -50,11 +50,11 @@ waitForMe("Parwinder")
     })
 ```
 
-You can see how this chains calling names with two second breaks in between each console log. Every `then` operator return a promise that is further chained with another `then` while still maintaining a flat code structure.
+You can see how we chained calling names with two-second breaks in between each console log. Every `then` operator returns a promise that is further chained with another `then` while maintaining a flat code structure.
 
 ### Error Handling
 
-There are two ways in which you can handle errors in your promise chain, either by passing a error handler to `then` block or using the `catch` operator. We discussed the first method in the previous blog post.
+There are two ways in which you can handle errors in your promise chain, either by passing an error handler to `then` block or using the `catch` operator. We discussed the first method in the previous blog post.
 
 ```javascript
 const myPromise = new Promise((resolve, reject) => {
@@ -70,10 +70,10 @@ myPromise.then((response) => {
 });
 ```
 
-In the above example, `then` has two callbacks. The first one is a success handler and the second is an error handler. This is completely fine and works for most cases. It has certain drawbacks:
+In the above example, `then` has two callbacks. The first one is a success handler, and the second is an error handler. Using both the handlers is completely fine and works for most cases. It has certain drawbacks:
 
 1. If the success handler ends in an error, you will not catch/handle it!
-2. If you are using a chain of promises like the one in the chaining example, you will be writing error handler for each `then` block.
+2. If you are using a chain of promises like the one in the chaining example, you will be writing an error handler for each `then` block.
 
 To come over these drawbacks, we use the `catch` operator.
 
@@ -129,7 +129,7 @@ waitForMe("Parwinder")
 
 Keep in mind that when chaining promises and one of the promise gets rejected, it will terminate the rest of the chain. That is why the last two console logs never run.
 
-`catch` operator does not always have to be at the very end. It could be in the middle of the chain and it will catch the errors in the chain so far.
+`catch` operator does not always have to be at the very end. It could be in the middle of the chain and catch the chain's errors so far.
 
 ```javascript
 const waitForMe = function (name) {
@@ -166,19 +166,19 @@ waitForMe("Parwinder")
 
 I mentioned this disadvantage above for error handler in `then`:
 
-> If you are using a chain of promises like the one in the chaining example, you will be writing error handler for each `then` block.
+> If you are using a chain of promises like the one in the chaining example, you will be writing an error handler for each `then` block.
 
-There will be times when you **DO** want different error handlers for all `then` blocks in your chain (maybe for easier debugging or logging). At that point, error handler in individual `then` blocks become an advantage.
+There will be times when you **DO** want different error handlers for all `then` blocks in your chain (maybe for easier debugging or logging). At that point, the error handler in individual `then` blocks becomes an advantage.
 
 ### Operators
 
-There are two key operators that promises have which are suited for specific conditions: `Promise.all` and `Promise.race`.
+There are two key operators that promises have, which are suited for specific conditions: `Promise.all` and `Promise.race`.
 
 #### Promise.all
 
-Promise chaining comes in handy when you want to do one async operation after another (sequentially). Quite often you would have to do multiple async operations concurrently without waiting for one to complete. Also, your action (callback) depends on all the async operations completing.
+Promise chaining comes in handy when you want to do one async operation after another (sequentially). Quite often, you would have to do multiple async operations concurrently without waiting for one to complete. Also, your action (callback) depends on all the async operations completing.
 
-`Promise.all` allows us to run multiple async operations at the same time (saving us time) but still wait for all of them to complete before executing the callback.
+`Promise.all` allows us to run multiple async operations simultaneously (saving us time) but still wait for all of them to complete before executing the callback.
 
 ```javascript
 const waitForMe = function (name) {
@@ -196,13 +196,13 @@ const fourthPromise = waitForMe("Eliu");
 
 Promise.all([firstPromise, secondPromise, thirdPromise, fourthPromise])
     .then((data) => {
-        console.log(data); // [ 'Parwinder', 'Lauren', 'Robert', 'Eliu' ] 
+        console.log(data); // [ 'Parwinder', 'Lauren', 'Robert', 'Eliu' ]
     });
 ```
 
-The example executes all promises together and once all of them return the `name`, outputs an array of results. This execution will take 2 seconds to output 4 names vs the chaining example will take 8 seconds to output all 4 names.
+The example executes all promises together, and once all of them return the `name`, outputs an array of results. This execution will take 2 seconds to output four names vs. the chaining example will take 8 seconds to output all four names.
 
-The order of output in the array is strictly the same as order of input promises to `Promise.all`.
+The order of output in the array is strictly the same as the order of input promises to `Promise.all`.
 
 🚨 Even if there is a **single** failure in `Promise.all`, the result will be that rejection or failure.
 
@@ -266,7 +266,7 @@ Promise.all([firstPromise, secondPromise, thirdPromise, fourthPromise])
 
 #### Promise.race
 
-`Promise.race` handles a unique case. When you would like to run multiple async operations at the same time but not wait for all to complete. Instead, you want to execute callback as soon as first one completes (hence the keyword "race").
+`Promise.race` handles a unique case. When you would like to run multiple async operations at the same time, but not wait for all to complete. Instead, you want to execute callback as soon as the first one completes (hence the keyword "race").
 
 ```javascript
 const waitForMe = function (name, time) {
@@ -291,4 +291,4 @@ Promise.race([firstPromise, secondPromise, thirdPromise, fourthPromise])
     })
 ```
 
-I have made the `setTimeout` time an argument as well. With each name I am passing the time. "Lauren" has the least time of 3 seconds (3000 ms) so she would always win the race and the console outputs her name.
+I have made the `setTimeout` time an argument as well. With each name, I am passing the time. "Lauren" has the least time of 3 seconds (3000 ms) so she would always win the race, and the console outputs her name.
