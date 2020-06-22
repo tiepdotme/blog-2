@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Types in JavaScript"
+image: "/assets/social/types.png"
 date:   2020-05-19 12:58:00 -0500
 ---
 
