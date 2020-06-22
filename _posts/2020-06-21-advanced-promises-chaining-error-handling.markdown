@@ -269,5 +269,26 @@ Promise.all([firstPromise, secondPromise, thirdPromise, fourthPromise])
 `Promise.race` handles a unique case. When you would like to run multiple async operations at the same time but not wait for all to complete. Instead, you want to execute callback as soon as first one completes (hence the keyword "race").
 
 ```javascript
+const waitForMe = function (name, time) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            return resolve(name);
+        }, time);
+    });
+}
 
+const firstPromise = waitForMe("Parwinder", 4000);
+const secondPromise = waitForMe("Lauren", 3000);
+const thirdPromise = waitForMe("Robert", 7000);
+const fourthPromise = waitForMe("Eliu", 5000);
+
+Promise.race([firstPromise, secondPromise, thirdPromise, fourthPromise])
+    .then((data) => {
+        console.log(data);
+    })
+    .catch((error) => {
+        console.log(error); // Lauren
+    })
 ```
+
+I have made the `setTimeout` time an argument as well. With each name I am passing the time. "Lauren" has the least time of 3 seconds (3000 ms) so she would always win the race and the console outputs her name.
