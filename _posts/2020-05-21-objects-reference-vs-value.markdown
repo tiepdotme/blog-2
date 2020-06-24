@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Objects: Reference vs Value"
+image: "/assets/social/ref-vs-value.png"
 date:   2020-05-21 12:45:00 -0500
 ---
 
