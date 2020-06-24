@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What are objects & why are they important in JavaScript"
+image: "/assets/social/objects.png"
 date:   2020-05-20 16:58:00 -0500
 ---
 
