@@ -10,7 +10,7 @@ Async/Await was introduced in ES7 to promote a cleaner syntax to promises. Under
 
 ### Async
 
-`async` keyword could be used in front of any function expression. All it means is that the function will always return a promise. Any return values other than a promise will be wrapped in a resolved promise.
+`async` keyword could be used in front of any function (declaration, expressions, callbacks or literally anywhere). All it means is that the function will always return a promise. Any return values other than a promise will be wrapped in a resolved promise.
 
 ```javascript
 async function foo() {
