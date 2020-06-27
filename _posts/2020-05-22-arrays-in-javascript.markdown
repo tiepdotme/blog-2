@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Arrays in JavaScript"
+image: "/assets/social/arrays.png"
 date:   2020-05-22 16:45:00 -0500
 ---
 
