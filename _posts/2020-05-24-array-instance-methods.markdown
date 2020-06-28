@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Array (Instance) Methods"
+image: "/assets/social/array-instance-methods.png"
 date:   2020-05-24 16:45:00 -0500
 ---
 
