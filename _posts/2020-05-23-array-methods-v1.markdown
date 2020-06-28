@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Array Methods"
+image: "/assets/social/array-methods.png"
 date:   2020-05-23 16:45:00 -0500
 ---
 
