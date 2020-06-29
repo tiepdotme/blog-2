@@ -82,10 +82,14 @@ Github: https://github.com/jspolancor/presentation-mode
 
 Every now and then a software engineer has to work with CSV files. Be it client that only works with CSV or an archaic system that was built around them. Rainbow CSV makes CSV files readable. Highlight CSV and TSV files in different colors, Run SQL-like queries.
 
-![Rainbow CSV](/blog/assets/presentation-mode.gif "Rainbow CSV Preview")
+![Rainbow CSV](/blog/assets/rainbow-csv.png "Rainbow CSV Preview")
 
 Github: https://github.com/mechatroner/vscode_rainbow_csv
 
 ## [vscode-spotify](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)
+
+I barely know a developer that does not listen to music while coding or during a break. vscode-spotify allows you to control Spotify without leaving VS Code.
+
+![vscode-spotify](/blog/assets/vscode-spotify.png "Current Spotify Track in VS Code")
 
 Github: https://github.com/ShyykoSerhiy/vscode-spotify
