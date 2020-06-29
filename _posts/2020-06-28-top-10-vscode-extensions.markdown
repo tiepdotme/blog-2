@@ -39,3 +39,37 @@ If you work with Markdown as much as I do (like writing this blog), this is a mu
 ![Markdown All in One](/blog/assets/auto-rename.gif "Toggle Bold")
 
 Github: https://github.com/yzhang-gh/vscode-markdown
+
+## [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+
+This allows you to open the current file in your default browser or application.
+
+Github: https://github.com/SudoKillMe/vscode-extensions-open-in-browser
+
+## [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+
+Language extension for VSCode/Bluemix Code that adds syntax colorization for both the output/debug/extensions panel and `*.log` files.
+
+Github: https://github.com/IBM-Cloud/vscode-log-output-colorizer
+
+## [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+
+Create gorgeous screenshots of your code, complete with VSCode settings, fonts and theme.
+
+Github: https://github.com/octref/polacode
+
+## [Presentation mode](https://marketplace.visualstudio.com/items?itemName=jspolancor.presentationmode)
+
+A simple plugin to show your code properly in a presentation
+
+Github: https://github.com/jspolancor/presentation-mode
+
+## [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+
+Highlight CSV and TSV files in different colors, Run SQL-like queries
+
+Github: https://github.com/mechatroner/vscode_rainbow_csv
+
+## [vscode-spotify](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)
+
+Github: https://github.com/ShyykoSerhiy/vscode-spotify
