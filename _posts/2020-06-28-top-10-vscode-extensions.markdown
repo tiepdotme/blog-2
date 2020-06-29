@@ -64,19 +64,25 @@ Github: https://github.com/IBM-Cloud/vscode-log-output-colorizer
 
 ## [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
-Create gorgeous screenshots of your code, complete with VSCode settings, fonts and theme.
+Create gorgeous screenshots of your code, complete with VSCode settings, fonts and theme. It is super helpful when I am creating documentation or presentations where I have to showcase code without switching context to my code editor (for example, working with business stakeholders).
+
+![Polacode](/blog/assets/polacode.gif "Polacode Usage")
 
 Github: https://github.com/octref/polacode
 
 ## [Presentation mode](https://marketplace.visualstudio.com/items?itemName=jspolancor.presentationmode)
 
-A simple plugin to show your code properly in a presentation
+A simple plugin to show your code properly in a presentation. You can change the zoom level in presentation mode in your settings. I have my zoom level set to 3. I use this for presentations where I am actively navigating code or teaching a topic.
+
+![Presentation mode](/blog/assets/presentation-mode.gif "Presentation Mode Usage")
 
 Github: https://github.com/jspolancor/presentation-mode
 
 ## [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
-Highlight CSV and TSV files in different colors, Run SQL-like queries
+Every now and then a software engineer has to work with CSV files. Be it client that only works with CSV or an archaic system that was built around them. Rainbow CSV makes CSV files readable. Highlight CSV and TSV files in different colors, Run SQL-like queries.
+
+![Rainbow CSV](/blog/assets/presentation-mode.gif "Rainbow CSV Preview")
 
 Github: https://github.com/mechatroner/vscode_rainbow_csv
 
