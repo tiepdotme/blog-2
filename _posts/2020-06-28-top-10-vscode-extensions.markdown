@@ -42,7 +42,7 @@ Major features I ❤️
 2. Adding table of contents and automatically updating it
 3. Printing Markdown to HTML
 
-![Markdown All in One](/blog/assets/auto-rename.gif "Toggle Bold")
+![Markdown All in One](/blog/assets/toggle-bold.gif "Toggle Bold")
 
 Github: https://github.com/yzhang-gh/vscode-markdown
 
