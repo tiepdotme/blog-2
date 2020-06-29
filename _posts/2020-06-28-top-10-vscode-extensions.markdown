@@ -26,7 +26,7 @@ Github: https://github.com/formulahendry/vscode-auto-close-tag
 
 ## [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
+Automatically rename paired HTML/XML tag, same as Visual Studio IDE does. With this extension, when you rename one HTML/XML tag, automatically rename the paired HTML/XML tag.
 
 ![Auto Rename](/blog/assets/auto-rename.gif "Auto Rename")
 
@@ -36,6 +36,12 @@ Github: https://github.com/formulahendry/vscode-auto-rename-tag
 
 If you work with Markdown as much as I do (like writing this blog), this is a must have. All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
 
+Major features I ❤️
+
+1. Keyboard shortcuts to stylize text
+2. Adding table of contents and automatically updating it
+3. Printing Markdown to HTML
+
 ![Markdown All in One](/blog/assets/auto-rename.gif "Toggle Bold")
 
 Github: https://github.com/yzhang-gh/vscode-markdown
@@ -44,11 +50,15 @@ Github: https://github.com/yzhang-gh/vscode-markdown
 
 This allows you to open the current file in your default browser or application.
 
+![open in browser](/blog/assets/open-in-browser.jpg "Right Click Menu")
+
 Github: https://github.com/SudoKillMe/vscode-extensions-open-in-browser
 
 ## [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
 
-Language extension for VSCode/Bluemix Code that adds syntax colorization for both the output/debug/extensions panel and `*.log` files.
+Language extension for VSCode that adds syntax colorization for both the output/debug/extensions panel and `*.log` files. Makes reading those logs easy on the eye. Works with almost any theme out there.
+
+![Output Colorizer](/blog/assets/output-colorizer.jpg "VS Code Git Output")
 
 Github: https://github.com/IBM-Cloud/vscode-log-output-colorizer
 
