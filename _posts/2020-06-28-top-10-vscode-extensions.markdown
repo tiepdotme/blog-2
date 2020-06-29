@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Top 10 VS Code Extensions"
-date: 2020-06-27 12:00:00 -0500
+date: 2020-06-28 12:00:00 -0500
 ---
 
 Today, I am going to take a slight break from writing about JavaScript and re-visit my favorite editor, Visual Studio Code or VS Code. We are going to go over my top 10 extensions.
