@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "My Top 10 VS Code Extensions"
+image: "/assets/social/code.png"
 date: 2020-06-28 12:00:00 -0500
 ---
 
