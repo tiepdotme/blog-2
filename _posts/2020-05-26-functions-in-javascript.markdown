@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Functions In JavaScript"
+image: "/assets/social/functions.png"
 date:   2020-05-26 13:45:00 -0500
 ---
 
