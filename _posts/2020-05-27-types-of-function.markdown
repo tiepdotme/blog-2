@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Types of Function in JavaScript"
+image: "/assets/social/function-types.png"
 date:   2020-05-27 14:45:00 -0500
 ---
 
