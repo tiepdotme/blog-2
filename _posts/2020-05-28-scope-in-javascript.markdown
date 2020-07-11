@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Scope in JavaScript: Global vs. Local vs. Block"
+image: "/assets/social/scope.png"
 date:   2020-05-28 14:45:00 -0500
 ---
 
