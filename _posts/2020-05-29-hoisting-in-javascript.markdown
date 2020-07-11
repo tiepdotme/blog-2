@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hoisting in JavaScript"
+image: "/assets/social/hoisting.png"
 date:   2020-05-29 12:45:00 -0500
 ---
 
