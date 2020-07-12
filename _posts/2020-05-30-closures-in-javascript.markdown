@@ -71,6 +71,8 @@ Surprise surprise! It can still log the value of a variable in its parent functi
 
 JavaScript garbage collection does not clear out variables of a function if that function has child functions returned. These child functions can run later and are fully eligible to access the parent's scope by the principal of lexical scoping.
 
+This behavior of garbage collection is not only limited to child function. A variable is not garbage collected as long as **anything** maintains a reference to it.
+
 ### Real World Example
 
 Let's say that I am programming about a car. This car can accelerate like a real-world car, and whenever it does accelerate, the speed of the car increases.
@@ -148,4 +150,32 @@ console.log(redCar.accelerate()); // 2
 console.log(speed); // speed is not defined
 ```
 
-`car` and `redCar` maintain their own private `speed` variables, and `speed` is not accessible outside. I hope the article cleared up any doubts about closures in JavaScript!
+`car` and `redCar` maintain their own private `speed` variables, and `speed` is not accessible outside. We are enforcing the consumer to use the methods defined on the function or class rather than accessing the properties directly (which they should not). This is how you would encapsulate your code.
+
+I hope the article cleared up any doubts about closures in JavaScript!
+
+**BONUS**
+
+Here is an interview question about closures that is asked fairly frequently.
+
+What do you think the output of the following piece of code will be:
+
+```javascript
+for (let i = 0; i <= 5; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 1000);
+}
+```
+
+If you guessed numbers from 0 to 5 with a one-second gap, you are in for a surprise. By the time 1 second has passed for the setTimeout, `i` has a value of 6 at the time of invocation! We would like to use the value of `i` from time of creation and IIFE + closures will help you do that.
+
+```javascript
+for (let i = 0; i <= 5; i++) {
+    (function (i) {
+        setTimeout(function () {
+            console.log(i);
+        }, 1000);
+    })(i);
+}
+```
