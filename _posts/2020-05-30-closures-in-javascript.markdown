@@ -154,14 +154,14 @@ console.log(speed); // speed is not defined
 
 I hope the article cleared up any doubts about closures in JavaScript!
 
-**BONUS**
+### Common Interview Question
 
 Here is an interview question about closures that is asked fairly frequently.
 
 What do you think the output of the following piece of code will be:
 
 ```javascript
-for (let i = 0; i <= 5; i++) {
+for (var i = 0; i <= 5; i++) {
     setTimeout(function () {
         console.log(i);
     }, 1000);
@@ -171,7 +171,7 @@ for (let i = 0; i <= 5; i++) {
 If you guessed numbers from 0 to 5 with a one-second gap, you are in for a surprise. By the time 1 second has passed for the setTimeout, `i` has a value of 6 at the time of invocation! We would like to use the value of `i` from time of creation and IIFE + closures will help you do that.
 
 ```javascript
-for (let i = 0; i <= 5; i++) {
+for (var i = 0; i <= 5; i++) {
     (function (i) {
         setTimeout(function () {
             console.log(i);
@@ -179,3 +179,21 @@ for (let i = 0; i <= 5; i++) {
     })(i);
 }
 ```
+
+There is another way to solve this issue. Using the `let` keyword.
+
+`var` in our loop used to declare `i` creates a function scope. This results in one binding shared for all loop iterations. When the six timers complete, they all use the same variable with a finally settled value of 6.
+
+`let` has block scope and when used with a `for` loop creates a new binding for each iteration of the loop. Each timer in the loop gets a different variable with a different value from 0 to 5.
+
+```javascript
+for (let i = 0; i <= 5; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 1000);
+}
+```
+
+And now the output will be numbers from 0 to 5. If you are targeting ES5, use the IIFE plus closures method. If you have access to ES6, use the `let` keyword method.
+
+This is what Babel does under the hood when it transpiles ES6 code to ES5. It transforms the above `let` based code to a combination of closure + IIFE!
