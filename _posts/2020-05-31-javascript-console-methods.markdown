@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "JavaScript Console Methods"
+image: "/assets/social/console.png"
 date:   2020-05-31 15:00:00 -0500
 ---
 
