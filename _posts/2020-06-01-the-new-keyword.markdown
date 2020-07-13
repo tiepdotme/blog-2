@@ -51,7 +51,7 @@ console.log(igorCar); // Car { make: 'Tesla', model: 'Model S', year: 2020 }
 console.log(laurenCar); // Car { make: 'Ford', model: 'Escape', year: 2015 }
 
 console.log(typeof myCar); // object
-console.log(myCae instanceof Car); // true
+console.log(myCar instanceof Car); // true
 ```
 
 I created three new and separate instances of the `Car` object with their unique properties of make, model, and year. Since this is an object, it is of no surprise that the `typeof` variable provides an object as output. When you do an instanceOf check, it comes back true, for instance, of a `Car` as we have instantiated these object variables from `Car` object. `Car` object acts as the **blueprint** or the **mother object** for myCar, igorCar, and laurenCar.
