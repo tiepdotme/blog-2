@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "10 Methods for String Reversal in JavaScript"
+image: "/assets/social/string-reversal.png"
 date: 2020-07-13 12:00:00 -0500
 ---
 
