@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "While Loop"
+image: "/assets/social/while-loop.png"
 date:   2020-06-07 12:00:00 -0500
 ---
 
