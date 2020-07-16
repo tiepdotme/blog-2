@@ -1,0 +1,58 @@
+---
+layout: post
+title: "Array Map Explained"
+date: 2020-07-15 12:00:00 -0500
+---
+
+`map()` method on an array produces a new array by applying a function to every element of the input array. The result is a new array with the same length of the original input array.
+
+`map()` is helpful in situations where you need to do some work on every element of the array. Maybe you need to double every element.
+
+```javascript
+const arr = [2, 4, 9, 22];
+const map = arr.map(x => x * 2);
+console.log(map); // [ 4, 8, 18, 44 ]
+```
+
+You can also access the current index of the array using a map. The callback function takes a second argument for index.
+
+```javascript
+const arr = [2, 4, 9, 22];
+const map = arr.map((value, index) => value * index); // multiplying array value with its index
+console.log(map); // [ 0, 4, 18, 66 ]
+```
+
+And if access to index is not enough, you can also get access to the original array as a third parameter.
+
+### map method and this keyword
+
+There are times when you need to specify the `this` context in `map()`. Passing `this` is supported as a second parameter to `map`.
+
+```javascript
+const util = {
+    firstName: "John",
+    lastNames: ["Wick", "Malcolm", "Smith"],
+    randomNameGenerator: function () {
+        const newNames = this.lastNames.map(function (surname) {
+            return (`${this.firstName} ${surname}`); // we can access first name provided by this object
+        }, this); // passing reference to this object
+        return newNames;
+    }
+}
+
+console.log(util.randomNameGenerator()); // [ 'John Wick', 'John Malcolm', 'John Smith' ]
+```
+
+### When not to use a map
+
+- If you do not plan to use the returned array or if you are not returning a value from the callback function, do not use a map. Use `forEach` or `for..of` if you want to update the input array itself.
+
+- Please do not use it with built-in methods that take one parameter most of the time but do have the capability of taking more than one parameters. Let me illustrate with an example.
+
+```javascript
+const arr = ["2", "4", "9"];
+const map = arr.map(parseInt);
+console.log(map);
+```
+
+You might expect the answer as `[2, 4, 9]` and each element as a number due to the use of `parseInt`. You would be surprised that the output is `[2, NaN, NaN]`. Keep in mind that `parseInt` takes three parameters: element, index and array! So for the second and third element, the index will be 1 and 2 resulting in NaN from `parseInt`.
