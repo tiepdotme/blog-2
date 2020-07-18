@@ -4,7 +4,7 @@ title: "Array Reduce"
 date: 2020-07-16 12:00:00 -0500
 ---
 
-`reduce()` method on an array produces a single value by applying a reducer function to every element of the input array. It takes an input array, an accumulator (it is maintained throughout the loop), current value and index.
+`reduce()` method on an array produces a single value by applying a reducer function to every element of the input array. It takes a callback function with an input array, an accumulator (it is maintained throughout the loop), current value and index.
 
 `reduce()` is helpful in situations where you need to do some work on every element of the array and produce one result. Maybe you need to add every element of an array.
 

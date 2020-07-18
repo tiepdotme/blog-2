@@ -4,7 +4,7 @@ title: "Array Map Explained"
 date: 2020-07-15 12:00:00 -0500
 ---
 
-`map()` method on an array produces a new array by applying a function to every element of the input array. The result is a new array with the same length of the original input array.
+`map()` method on an array produces a new array by applying a function to every element of the input array. The result is a new array with the same length of the original input array. `map()` takes a callback function with arguments. First argument is the current element of the array being processed.
 
 `map()` is helpful in situations where you need to do some work on every element of the array. Maybe you need to double every element.
 
