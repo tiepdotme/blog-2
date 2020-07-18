@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Events & Event Handling"
+image: "/assets/social/events.png"
 date:   2020-06-04 12:00:00 -0500
 ---
 
