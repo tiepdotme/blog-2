@@ -38,7 +38,7 @@ with (person) {
 
 ### Function arguments
 
-Every function has an `arguments` array-like object that contains the value of all arguments passed to the function.
+Every function (except arrow functions) has an `arguments` array-like object that contains the value of all arguments passed to the function.
 
 ```javascript
 function foo(a, b, c) {
