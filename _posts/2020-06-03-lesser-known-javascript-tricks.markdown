@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lesser-known JavaScript Tips & Tricks"
+image: "/assets/social/js-tricks.png"
 date:   2020-06-03 15:00:00 -0500
 ---
 
