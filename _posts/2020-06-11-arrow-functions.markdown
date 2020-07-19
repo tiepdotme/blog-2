@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Arrow Functions: Basics"
+image: "/assets/social/arrow.png"
 date:   2020-06-11 12:00:00 -0500
 ---
 
