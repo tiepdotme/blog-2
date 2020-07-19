@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Event Bubbling in JavaScript"
+image: "/assets/social/event-bubbling.png"
 date:   2020-06-05 12:00:00 -0500
 ---
 
