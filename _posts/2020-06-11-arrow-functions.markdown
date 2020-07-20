@@ -42,6 +42,13 @@ console.log(multiply(3, 2)); // 6
    console.log(square(2)); // 4
    console.log(square(7)); // 49
    ```
+   The only caveat to this rule is that if the 1 argument is destructured.
+    ```javascript
+    const foo = ({name = "New User"}) => name;
+
+    console.log(foo({})); // New User
+    console.log(foo({name: "Parwinder"})); // Parwinder
+    ```
 3. If there is no arguments, we need to have the parenthesis
    ```javascript
    const greeting = () => {
@@ -50,7 +57,7 @@ console.log(multiply(3, 2)); // 6
 
    console.log(greeting()); // Hello World!
    ```
-4. If the function has only one statement, and the statement returns a value, we can remove the brackets and the return keyword.
+4. If the function body is an expression, it will return the expression, we can remove the brackets and the return keyword.
    ```javascript
    const greeting = () => "Hello World!";
    console.log(greeting()); // Hello World
