@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "this Keyword"
+image: "/assets/social/this.png"
 date:   2020-06-12 12:00:00 -0500
 ---
 
 ## `this` keyword and functions
 
-The `this` keyword in JavaScript is a property of an execution context, wether it is global, function, or eval. For regular JavaScript functions, `this` could change based upon how they were called.
+The `this` keyword in JavaScript is a property of an execution context, whether it is global, function, or eval. For regular JavaScript functions, `this` could change based upon how they were called.
 
 1. By itself, `this` refers to the global object.
 2. The new object, when used in a constructor.
