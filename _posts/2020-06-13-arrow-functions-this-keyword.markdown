@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Arrow Functions & this keyword"
+image: "/assets/social/arrow-this.png"
 date:   2020-06-13 12:00:00 -0500
 ---
 
