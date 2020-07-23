@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "JavaScrip Strict Mode (use strict)"
+image: "/assets/social/strict.png"
 date:   2020-06-15 12:00:00 -0500
 ---
 
@@ -61,7 +62,7 @@ The strict mode was introduced in ES5. It is a way of enforcing strict rules whi
    console.log(sumOfNumbers(1, 2, 3)); // 7
    ```
 
-   Above code is valid too. It ends up with unexpected results. The value of `a` is set to 2, and the sum returns  7 instead of our expectation, 6. Strict mode throws a syntax error.
+   The above code is valid too. It ends up with unexpected results. The value of `a` is set to 2, and the sum returns  7 instead of our expectation, 6. Strict mode throws a syntax error.
 
 5. Assigning `NaN` to a variable has no failure feedback in sloppy mode. Strict mode throws an exception
 
