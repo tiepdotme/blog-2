@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Code Editor: Visual Studio Code"
+image: "/assets/social/code-why.png"
 date:   2020-06-17 12:00:00 -0500
 ---
 
