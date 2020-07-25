@@ -63,7 +63,7 @@ console.log(employeeProfile);
 
 The output on the console will be:
 
-```json
+```javascript
 { name: 'John Smith',
   age: 30,
   gender: 'male',
