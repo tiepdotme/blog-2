@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Currying"
+date:   2020-07-28 12:00:00 -0500
+---
+
+Currying is a technique in which you make a function that takes multiple arguments into a series of functions that each take only one argument. It is translating a function from callable as f(a, b, c, n) into callable as f(a)(b)(c)(n).
+
+Let's start with an example of a function that takes two arguments.
+
+```javascript
+const multiply = (a, b) => {
+    return a * b;
+}
+
+console.log(multiply(4, 3)); // 12
+```
+
+We will convert this into a series of functions where each one takes only one argument (currying):
+
+```javascript
+const multiply = (a) => {
+    return (b) => {
+        return a * b;
+    }
+}
+
+console.log(multiply(4)(3)); // 12
+```
+
+Using shorthand:
+
+```javascript
+const multiply = a => b => a * b;
+console.log(multiply(4)(3)); // 12
+```
+
+The outer function takes in `a` and returns a function that takes in `b` which eventually returns the multiplication of a and b.
+
+Currying is commonly associated with partial application. The idea is to create a function with two or more arguments, and we only know the value(s) for some of those arguments. We can use partial application (currying) to supply the knows values and get a function in return that works with unknowns (at the moment). Once the remaining arguments are known, we can execute the returned function.
+
+I, in all honesty, have not used currying that much in real-life applications. There are other ways to accomplish what we are trying to do with currying (classes, callback functions and higher-order functions). It is good to know.
