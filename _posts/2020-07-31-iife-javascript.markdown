@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Polymorphism in JavaScript"
-date:   2020-07-30 12:00:00 -0500
+title:  "Immediately Invoked Function Expressions"
+date:   2020-07-31 12:00:00 -0500
 ---
 
 ### Immediately invoked function expressions (IIFE)
