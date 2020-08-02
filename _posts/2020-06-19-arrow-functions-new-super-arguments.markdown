@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Arrow Functions: new keyword, arguments and super"
+image: "/assets/social/arrow-keywords.png"
 date: 2020-06-19 12:00:00 -0500
 ---
 
