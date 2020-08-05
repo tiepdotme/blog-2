@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "New Promise Methods: allSettled & any"
+image: "/assets/social/promises-new.png"
 date: 2020-06-22 12:00:00 -0500
 ---
 
 ## Introduction
 
-We covered basic and advanced promises in the last two blog posts. There are two reasonably new operators/methods to promises that can make life easier. Let's go over them.
+We covered [basic](https://bhagat.me/blog/2020/06/20/basics-of-promises.html) and [advanced](https://bhagat.me/blog/2020/06/21/advanced-promises-chaining-error-handling.html) promises in the last two blog posts. There are two reasonably new operators/methods to promises that can make life easier. Let's go over them.
 
 ### AllSettled
 
