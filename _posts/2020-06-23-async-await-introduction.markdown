@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Async/Await: Introduction"
+image: "/assets/social/async-await.png"
 date: 2020-06-23 12:00:00 -0500
 ---
 
