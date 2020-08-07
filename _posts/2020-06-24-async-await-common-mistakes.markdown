@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Async/Await: Common Mistakes"
+image: "/assets/social/async-await-mistakes.png"
 date: 2020-06-24 12:00:00 -0500
 ---
 
