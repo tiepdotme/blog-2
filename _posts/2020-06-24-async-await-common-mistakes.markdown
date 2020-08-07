@@ -37,6 +37,8 @@ async function execute() {
 execute();
 ```
 
+🚨 Top-level await proposal is [here](https://github.com/tc39/proposal-top-level-await) and V8 [already supports it](https://v8.dev/features/top-level-await)
+
 ### Accidentally making code synchronous
 
 The biggest issue with async/await is the `await` keyword and how it is easy to misuse it. We almost always want our code to run asynchronously (if we have the option) and make sure we do not block the client.
