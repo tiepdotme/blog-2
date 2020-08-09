@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bind, Call & Apply"
+image: "/assets/social/bca.png"
 date: 2020-06-26 12:00:00 -0500
 ---
 
