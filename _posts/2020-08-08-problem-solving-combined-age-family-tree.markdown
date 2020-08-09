@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problem Solving: Find combined age from a family tree"
+title:  "Problem Solving: Find Combined Age From a Family Tree"
 date:   2020-08-08 12:00:00 -0500
 ---
 

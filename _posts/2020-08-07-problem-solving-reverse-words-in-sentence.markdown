@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problem Solving: Reverse words in a sentence"
+title:  "Problem Solving: Reverse Words in a Sentence"
 date:   2020-08-07 12:00:00 -0500
 ---
 

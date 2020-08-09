@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problem Solving: Check if a value is omnipresent"
+title:  "Problem Solving: Check if a Value is Omnipresent"
 date:   2020-08-03 12:00:00 -0500
 ---
 

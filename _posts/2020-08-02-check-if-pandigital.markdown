@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problem Solving: Check if a number is pandigital"
+title:  "Problem Solving: Check if a Number is Pandigital"
 date:   2020-08-02 12:00:00 -0500
 ---
 
