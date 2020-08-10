@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Destructuring: Arrays"
+image: "/assets/social/destruct.png"
 date: 2020-06-27 12:00:00 -0500
 ---
 
