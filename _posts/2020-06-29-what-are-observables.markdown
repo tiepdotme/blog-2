@@ -1,10 +1,13 @@
 ---
 layout: post
 title: "What are, Observables?"
+image: "/assets/social/o.png"
 date: 2020-06-29 12:00:00 -0500
 ---
 
 ### Introduction
+
+With this blog post, I am starting a new series on Observable/RxJS. I would still continue with my JavaScript series because there are few more items to address but the next few days will be dedicated to RxJS.
 
 Observables are things that you can observe. It is something that produces values over time. Observables can depict different behaviors depending on what you are using it for. It can:
 
