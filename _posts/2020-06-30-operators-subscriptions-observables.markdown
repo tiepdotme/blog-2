@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Operators & Subscriptions (Observables)"
+image: "/assets/social/ons.png"
 date: 2020-06-30 12:00:00 -0500
 ---
 
