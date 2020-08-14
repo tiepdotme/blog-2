@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "8 New Features in ES2020/ES11"
+image: "/assets/social/es2020.png"
 date:   2020-08-11 12:00:00 -0500
 ---
 
