@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The Empty Statement in JavaScript"
+image: "/assets/social/empty.png"
 date:   2020-08-15 12:00:00 -0500
 ---
 
