@@ -4,7 +4,7 @@ title:  "Pipeline Operator in JavaScript"
 date:   2020-08-16 12:00:00 -0500
 ---
 
-We all know about a ton of operators in JavaScript (&&, ||, NOT and so on). A new operator is in stage 1 for the next ES release.
+We all know about a ton of operators in JavaScript (AND, OR, NOT and so on). A new operator is in stage 1 for the next ES release.
 
 🚨Before you proceed to read or use this operator, keep in mind that it might not make it to the release stage or if it does, the implementation might change.
 
