@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Creating Observables: Part 2"
+image: "/assets/social/create-obs-2.png"
 date: 2020-07-02 12:00:00 -0500
 ---
 
