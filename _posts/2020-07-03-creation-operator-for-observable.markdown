@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Creating an Operator (Observables)"
+image: "/assets/social/custom-operator.png"
 date: 2020-07-03 12:00:00 -0500
 ---
 
