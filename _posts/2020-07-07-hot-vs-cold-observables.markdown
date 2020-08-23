@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hot vs Cold Observables"
+image: "/assets/social/hot-cold.png"
 date: 2020-07-07 12:00:00 -0500
 ---
 
