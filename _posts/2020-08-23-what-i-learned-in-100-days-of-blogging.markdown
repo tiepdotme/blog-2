@@ -84,9 +84,9 @@ I have my Twitter DM open, so folks reached out to show appreciation.
 
 Emails from across the globe kept me motivated to write everyday.
 
-![Twitter Share](/blog/assets/quote.png?style=centerme "Screenshot of Article Coverage")
+![Twitter Share](/blog/assets/quotes.png?style=centerme "Screenshot of Article Coverage")
 
-![Twitter Share](/blog/assets/quote-2.png?style=centerme "Second Screenshot of Article Coverage")
+![Twitter Share](/blog/assets/quotes-2.png?style=centerme "Second Screenshot of Article Coverage")
 
 Coverage from bigger twitter handles ensured I get attention from broader audience.
 
