@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Observable Operators: Merge & Concat"
+image: "/assets/social/merge-concat.png"
 date: 2020-07-08 12:00:00 -0500
 ---
 
