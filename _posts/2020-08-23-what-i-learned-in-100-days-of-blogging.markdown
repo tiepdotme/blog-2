@@ -47,9 +47,26 @@ I use Markdown to write my site. Markdown has been my go-to language for notes, 
 
 The editor has been configured to aid my writing (high contrast theme, extensions to add Markdown support and an emmet template).
 
-![Code Editor](/blog/assets/dev-to-screenshot.png "Blog Setup in Visual Studio Code")
+![Code Editor](/blog/assets/code-screenshot.png "Blog Setup in Visual Studio Code")
+
+I use Canva (https://www.canva.com) for social images. They are fantastic even with a free tier.
 
 ### Results
+
+Here are the combined statistics from the blog on my site, dev.to and LinkedIn. **Keep in mind that I only have 57 posts on DEV. I did not sync all 100, yet.**
+
+- Gained 550 followers, 1350 post reactions and 24,507 post views on DEV.
+- 7,304 post views on LinkedIn. I shared 4 blog posts.
+- 88 reactions and 4 comments on LinkedIn.
+- 277 unique users on the personal blog with 385 sessions.
+- Folks from all over the globe visited the personal blog, but majority users came from US, India, China, Canada and Ukraine.
+- 438 retweets and 160 ♥️ on Twitter
+
+![Analytics](/blog/assets/analytics.png "Google Analytics Screenshot")
+
+![LinkedIn Posts](/blog/assets/li-posts.png "Screenshot of 4 Posts on LinkedIn")
+
+#### 32196 combined views and 1598 reactions to posts 😍
 
 ### Praises
 
