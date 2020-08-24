@@ -20,7 +20,13 @@ I decided to start a blog on the domain I already own: https://bhagat.me. It's a
 
 I used GitHub pages and Jekyll to create a static blog. The theme for my blog is `minima` (one of the most common and minimal Jekyll themes out there). `jekyll-sitemap` is used as a plugin to auto-generate a sitemap for Google Search Console.
 
+![Blog](/blog/assets/blog-screenshot.png "Blog Screenshot From bhagat.me")
+
 I do collect analytics data using Google Analytics, but no personally-identifying information is collected on the blog. I'm mostly interested in visitor count and the geographical user spread.
+
+Halfway through writing on my site, I decided also to sync the blog to https://dev.to. DEV is a community of software developers that promotes collaboration and networked learning. Imagine it as an open-source and free Medium. The sync happened to add exposure to what the blog showcased. I also wanted to reach out to a broader audience. You can check out my dev.to profile at: https://dev.to/bhagatparwinder.
+
+![dev.to Blog](/blog/assets/dev-to-screenshot.png "Blog Screenshot From dev.to")
 
 ### What
 
@@ -33,7 +39,7 @@ My blog covers four different series now:
 3. Problem Solving
 4. Productivity
 
-Even though I have not tagged posts on my blog, they are tagged when I upload them to https://dev.to. More on this in the next section.
+Even though I have not tagged posts on my blog, they are tagged when I upload them to https://dev.to.
 
 ### How
 
@@ -42,5 +48,3 @@ Even though I have not tagged posts on my blog, they are tagged when I upload th
 ### Praises
 
 ### The Future
-
-
