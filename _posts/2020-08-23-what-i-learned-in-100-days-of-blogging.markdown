@@ -82,16 +82,28 @@ I have my Twitter DM open, so folks reached out to show appreciation.
 
 ![Email](/blog/assets/email.png?style=centerme "Screenshot of Email")
 
-Emails from across the globe kept me motivated to write everyday.
+Emails from across the globe kept me motivated to write every day.
 
 ![Twitter Share](/blog/assets/quotes.png?style=centerme "Screenshot of Article Coverage")
 
 ![Twitter Share](/blog/assets/quotes-2.png?style=centerme "Second Screenshot of Article Coverage")
 
-Coverage from bigger twitter handles ensured I get attention from broader audience.
+Coverage from more significant twitter handles ensured I get attention from a broader audience.
 
 ![Twitter Replies](/blog/assets/twitter-replies.png?style=centerme "Screenshot of Twitter Replies")
 
 The joy brought by twitter replies is immense.
 
 ### The Future
+
+I completed the commitment I made to myself. One hundred blog posts in 100 days was a fantastic journey. Does that mean I will stop writing? **Absolutely not**. Besides all the feedback, analytics and reactions I got, there are three key things I learned:
+
+1. Just because something has been shared multiple times on the internet does not mean you should not share what you know. You might reach an audience that never knew about what you are teaching. There is also a chance that your way of explaining things is what resonates with someone.
+2. Forming a habit is hard. Do not be tough on yourself. If you skip a day, cover it the next day and try not to skip again. I skipped days of writing (full disclosure), but I made sure I write two posts the next day, and I do not repeat the pattern.
+3. There is a sea of knowledge out there. People are hungry for more. Network, interact, socialize and get to know your audience. Once you do, you will be surprised by the impact you can make!
+
+I will write, but the future blog posts will be centered towards what I am actively working on or a piece of technology I am exploring. If there are any topics you would like me to cover, do not hesitate to reach out to me.
+
+My email is `contact@bhagat.me`. You can also find me on Github at https://github.com/bhagatparwinder and LinkedIn https://www.linkedin.com/in/bhagatparwinder/. If you prefer social media or twitter, my twitter handle is @bhagatparwinder.
+
+Till next time, happy coding 👋🏼
