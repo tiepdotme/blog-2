@@ -68,6 +68,30 @@ Here are the combined statistics from the blog on my site, dev.to and LinkedIn. 
 
 #### 32196 combined views and 1598 reactions to posts 😍
 
-### Praises
+### Feedback
+
+Developers and reader were extremely receptive of what I wrote. I got tonnes of constructive feedback, corrections on any mistake I made and quite a few messages of appreciation.
+
+![Comment Screenshot](/blog/assets/dev-empty-feedback.png?style=centerme "Screenshot of Comment")
+
+Corrections provided by developers were always welcome and taught me things I would have never known!
+
+![Twitter DM](/blog/assets/twitter-dm.png?style=centerme "Screenshot of Twitter Direct Message")
+
+I have my Twitter DM open, so folks reached out to show appreciation.
+
+![Email](/blog/assets/email.png?style=centerme "Screenshot of Email")
+
+Emails from across the globe kept me motivated to write everyday.
+
+![Twitter Share](/blog/assets/quote.png?style=centerme "Screenshot of Article Coverage")
+
+![Twitter Share](/blog/assets/quote-2.png?style=centerme "Second Screenshot of Article Coverage")
+
+Coverage from bigger twitter handles ensured I get attention from broader audience.
+
+![Twitter Replies](/blog/assets/twitter-replies.png?style=centerme "Screenshot of Twitter Replies")
+
+The joy brought by twitter replies is immense.
 
 ### The Future
