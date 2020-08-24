@@ -18,13 +18,13 @@ In this process, I learned a few new topics, researched further on topics I alre
 
 I decided to start a blog on the domain I already own: https://bhagat.me. It's a site I have used for a while to host my resume. Please go check it out! The blog is hosted on https://bhagat.me/blog.
 
-I used GitHub pages and Jekyll to create a static blog. The theme for my blog is `minima` (one of the most common and minimal Jekyll themes out there). `jekyll-sitemap` is used as a plugin to auto-generate a sitemap for Google Search Console.
+I used GitHub pages and Jekyll to create a static blog. The theme for my blog is `minima` (one of the most common and minimal Jekyll themes out there). `jekyll-sitemap` is used as a plugin to auto-generate a sitemap for Google Search Console. Here's a preview:
 
 ![Blog](/blog/assets/blog-screenshot.png "Blog Screenshot From bhagat.me")
 
 I do collect analytics data using Google Analytics, but no personally-identifying information is collected on the blog. I'm mostly interested in visitor count and the geographical user spread.
 
-Halfway through writing on my site, I decided also to sync the blog to https://dev.to. DEV is a community of software developers that promotes collaboration and networked learning. Imagine it as an open-source and free Medium. The sync happened to add exposure to what the blog showcased. I also wanted to reach out to a broader audience. You can check out my dev.to profile at: https://dev.to/bhagatparwinder.
+Halfway through writing on my site, I decided also to sync the blog to https://dev.to. DEV is a community of software developers that promotes collaboration and networked learning. Imagine it as an open-source and free Medium. The sync happened to add exposure to what the blog showcased. I also wanted to reach out to a broader audience. You can check out my dev.to profile at https://dev.to/bhagatparwinder.
 
 ![dev.to Blog](/blog/assets/dev-to-screenshot.png "Blog Screenshot From dev.to")
 
@@ -42,6 +42,12 @@ My blog covers four different series now:
 Even though I have not tagged posts on my blog, they are tagged when I upload them to https://dev.to.
 
 ### How
+
+I use Markdown to write my site. Markdown has been my go-to language for notes, presentations, static web pages and this blog. I've been writing with Markdown for as long as I can recall. My editor of choice is Visual Studio Code. I did write three posts about my editor detailing [extensions](https://bhagat.me/blog/2020/06/28/top-10-vscode-extensions.html), [setting](https://bhagat.me/blog/2020/07/11/top-10-vs-code-settings.html) and why I prefer [VS Code](https://bhagat.me/blog/2020/06/17/code-editor-visual-studio-code.html).
+
+The editor has been configured to aid my writing (high contrast theme, extensions to add Markdown support and an emmet template).
+
+![Code Editor](/blog/assets/dev-to-screenshot.png "Blog Setup in Visual Studio Code")
 
 ### Results
 
