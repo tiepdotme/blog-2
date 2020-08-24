@@ -62,9 +62,9 @@ Here are the combined statistics from the blog on my site, dev.to and LinkedIn. 
 - Folks from all over the globe visited the personal blog, but majority users came from US, India, China, Canada and Ukraine.
 - 438 retweets and 160 ♥️ on Twitter
 
-![Analytics](/blog/assets/analytics.png "Google Analytics Screenshot")
+![Analytics](/blog/assets/ga.png?style=centerme "Google Analytics Screenshot")
 
-![LinkedIn Posts](/blog/assets/li-posts.png "Screenshot of 4 Posts on LinkedIn")
+![LinkedIn Posts](/blog/assets/li-posts.png?style=centerme "Screenshot of 4 Posts on LinkedIn")
 
 #### 32196 combined views and 1598 reactions to posts 😍
 
