@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Map vs MergeMap vs SwitchMap"
+image: "/assets/social/map.png"
 date: 2020-07-10 12:00:00 -0500
 ---
 
