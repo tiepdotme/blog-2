@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Error Handling in Observables"
+image: "/assets/social/obs-error.png"
 date: 2020-07-09 12:00:00 -0500
 ---
 
