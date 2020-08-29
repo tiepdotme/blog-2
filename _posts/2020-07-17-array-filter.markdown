@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Array Filter Explained"
+image: "/assets/social/array-filter.png"
 date: 2020-07-17 12:00:00 -0500
 ---
 

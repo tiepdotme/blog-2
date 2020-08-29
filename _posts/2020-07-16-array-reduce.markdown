@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Array Reduce"
+image: "/assets/social/array-reduce.png"
 date: 2020-07-16 12:00:00 -0500
 ---
 
