@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Array Map Explained"
+image: "/assets/social/array-map.png"
 date: 2020-07-15 12:00:00 -0500
 ---
 
