@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "JavaScript Type: Symbol"
+image: "/assets/social/symbol.png"
 date: 2020-07-18 12:00:00 -0500
 ---
 
