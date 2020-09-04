@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Classes in JavaScript: Basics"
+image: "/assets/social/classes.png"
 date: 2020-07-19 12:00:00 -0500
 ---
 
