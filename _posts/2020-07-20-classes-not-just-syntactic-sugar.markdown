@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Classes, Not Just Syntactic Sugar"
+image: "/assets/social/classes-sugar.png"
 date: 2020-07-20 12:00:00 -0500
 ---
 
