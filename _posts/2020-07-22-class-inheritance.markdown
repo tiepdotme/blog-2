@@ -66,5 +66,3 @@ Classes in ES6 support:
 * prototypical inheritance,
 * `super`
 * instance and static methods.
-
-
