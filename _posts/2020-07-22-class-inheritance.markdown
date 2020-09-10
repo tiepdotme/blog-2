@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Class Inheritance"
+image: "/assets/social/class-inheritance.png"
 date: 2020-07-22 12:00:00 -0500
 ---
 
