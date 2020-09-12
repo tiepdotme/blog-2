@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What are, Mixins?"
+image: "/assets/social/mixins.png"
 date: 2020-07-23 12:00:00 -0500
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Class: Static Members"
+image: "/assets/social/static.png"
 date: 2020-07-24 12:00:00 -0500
 ---
 
