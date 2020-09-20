@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Git Ignore Locally"
+image: "/assets/social/ignore.png"
 date: 2020-07-26 00:33:00 -0500
 ---
 
