@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Terminal of Choice: iTerm2"
+image: "/assets/social/iterm.png"
 date:   2020-07-27 12:00:00 -0500
 ---
 
