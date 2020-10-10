@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Memoization"
+image: "/assets/social/memoization.png"
 date:   2020-07-29 12:00:00 -0500
 ---
 
