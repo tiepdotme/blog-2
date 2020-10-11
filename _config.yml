@@ -3,8 +3,8 @@ email: contact@bhagat.me
 author: Parwinder Bhagat
 description: >- # this means to ignore newlines until "baseurl:"
   Another blog by a software engineer. I write primarily about Javascript! All views expressed here are mine.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://bhagat.me" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tiengdong.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bhagatparwinder
 github_username: bhagatparwinder
 phone: 312.350.2425
